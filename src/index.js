@@ -1,10 +1,12 @@
 // computes a factorial of a given positive integer
-// version: 1 -> 2
+// version: 1 -> 2 -> 3 -> 4 -> 5
 function factorial(n) { //5!=5
 
+    /* 
     if( n < 0 ) {
         throw new Error('n must be a positive integer');
     }
+    */
 
 
     if( n === 0 ) {
